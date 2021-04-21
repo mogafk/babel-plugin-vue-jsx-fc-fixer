@@ -1,6 +1,9 @@
-import diff from 'jest-diff';
-import plugin from '../src/index.js'
-import { transform } from '@babel/core'
+// import diff from 'jest-diff';
+// import plugin from '../src/index.js'
+// import { transform } from '@babel/core'
+const diff = require('jest-diff')
+const plugin = require('../src/index.js')
+const { transform } = require('@babel/core')
 
 const stripIndent = (str) => {
 	const regex = new RegExp(`^[ \\t\\s]*`, 'gm');

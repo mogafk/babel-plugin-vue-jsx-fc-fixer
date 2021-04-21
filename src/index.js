@@ -1,4 +1,4 @@
-import syntaxJsx from '@babel/plugin-syntax-jsx'
+const syntaxJsx = require('@babel/plugin-syntax-jsx')
 
 /**
  * Check if expression is in method
@@ -120,7 +120,7 @@ function fixParams(t, path) {
 	}
 }
 
-export default babel => {
+module.exports = babel => {
 	const t = babel.types
     
 	return {

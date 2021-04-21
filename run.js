@@ -1,5 +1,5 @@
-import babel from '@babel/core'
-import visitor from './src/index.js'
+const babel = require('@babel/core')
+const visitor = require('./src/index')
 
 babel.transform(
 	`
