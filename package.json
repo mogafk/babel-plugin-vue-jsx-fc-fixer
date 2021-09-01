@@ -1,15 +1,15 @@
 {
   "name": "babel-plugin-vue-jsx-fc-fixer",
   "version": "1.0.9",
-  "description": "",
+  "description": "Babel plugin fixing incorrect transpiling of Vue 2 Functional Components + JSX",
   "main": "src/index.js",
   "scripts": {
     "test": "jest",
     "lint": "eslint --fix .",
     "run:example": "node ./run.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "mogafk <mogafk@gmail.com>",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.17",
     "@babel/preset-env": "^7.13.12",
@@ -19,5 +19,17 @@
     "eslint-plugin-jest": "^24.3.4",
     "jest": "^26.6.3"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "vue",
+    "babel",
+    "jsx",
+    "functional",
+    "components"
+  ],
+  "homepage": "https://github.com/mogafk/babel-plugin-vue-jsx-fc-fixer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogafk/babel-plugin-vue-jsx-fc-fixer.git"
+  }
 }
